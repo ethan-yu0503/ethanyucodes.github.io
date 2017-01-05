@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" rev="stylesheet" href="docs/style.css" />
@@ -87,8 +88,8 @@ var back = 'url(/Pics/' + 2 + '.jpg)';
 </script>
 
 <script>
-function run() {
-    var image = document.getElementById('background');
+
+    var image = document.getElementById('back');
         image.onload = function() {
             var engine = new RainyDay({
                 image: this
@@ -97,8 +98,8 @@ function run() {
             engine.rain([ [3, 3, 0.88], [5, 5, 0.9], [6, 2, 1] ], 100);
         	};
                 // image.crossOrigin = 'anonymous';
-                image.src = 'http://i.imgur.com/N7ETzFO.jpg';
-}     
+                //image.src = 'http://i.imgur.com/N7ETzFO.jpg';
+}    
 </script>
 
 
@@ -172,8 +173,8 @@ function run() {
 
 <section id="project" class="main">
 <header>
-<div id="projects">
-<h3> Undergrad at USC majoring in Computer Engineering and Minoring in Animation in the Cinematic Arts</h3>
+<div id="proj">
+<!-- <h3> Undergrad at <span id='USC'> USC </span></h3> <h3> Majoring in Computer Engineering and Minoring in Animation in the Cinematic Arts</h3> -->
 <h3> Here are some projects that I've worked on: </h3>
 
 <a 			href="http://www.travelyze.koodaniel.com" target="right"

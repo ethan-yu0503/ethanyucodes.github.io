@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Ubuntu');
+
 @font-face {
   font-family: 'simplifica';
   src: url(simplifica.ttf) format('truetype');
@@ -88,19 +90,27 @@ th, td {
 }
 
 
-.projects{
+.proj{
   background-color: white;
   /*color: black;*/
-  height: 450px;
-  padding: 5% 10% 5% 10%;
+  /*height: 450px;
+  padding: 5% 10% 5% 10%;*/
+}
+
+#proj{
+  background-color: white;
 }
 
 h3 {
   font-size: 30px;
   background-color: white;
-  font-family: 'simplifica' ;
+  font-family: 'Raleway', sans-serif;;
   /*font-weight: 500;*/
   /*font-weight: bold;*/
+}
+
+.USC{
+  color:red;
 }
 
 #free {
@@ -128,3 +138,111 @@ h3 {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+
+/*ABOUT ME PAGE*/
+
+#aboutMe{
+
+  background-image: url("Pics/aboutMe.jpeg");
+
+}
+
+.aboutTitle {
+  color: white;
+  background-color: rgba(0,0,0,.8);
+  padding: 40px;
+  text-align: center;
+  font-size: 70px;
+  margin: 175px auto 325px auto;
+  width: 250px;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 1000px) {
+   /* .objective .typewriter {
+      display: none;
+    }
+    .info {
+      height: 500px;
+    }
+    #infoAboutMe {
+    padding: 0 50px 0 50px;
+  }
+  .footernav nav a:link, .footernav nav a:visited {
+    margin: 5px 10px;
+  }
+  #hello {
+    font-size: 25px;
+    width: 400px;
+    animation: none;
+  }*/
+
+  /* about page media query */
+  #code {
+    height: 350px;
+  }
+
+  #description{
+
+    height: 300px;
+  }
+  #orgs {
+    height: 1300px;
+    text-align: center;
+  }
+  #orgs .imgBox {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  #orgs .imgDescription {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #projects {
+    height: 80%;
+  }
+
+  #projects .imgDescription {
+    width: 200px;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  #projects .imgBox {
+    width: 230px;
+  }
+  #projects img {
+    margin-left: -5px;
+  }
+
+}
+
+
+#code {
+  background-color: #dddddd;
+  text-align: center;
+  height: 350px;
+
+}
+
+#description {
+  background-color: white;
+  text-align: left;
+  height: 300px;
+
+}
+
+h4{
+
+  font-size: 35px;
+  font-family: 'Ubuntu', sans-serif;;
+  /*font-weight: 500;*/
+  /*font-weight: bold;*/
+
+}
+
