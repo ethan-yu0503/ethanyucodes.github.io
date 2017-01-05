@@ -1,0 +1,206 @@
+<html>
+<head>
+<link rel="stylesheet" rev="stylesheet" href="style.css" />
+<title> Welcome to Ethan's Personal Website </title>
+<meta charset="utf-8">
+
+</head>
+<body id="back">
+
+
+<!-- <script type="text/javascript" >
+	if (document.images)
+	{
+		// my_home = new Image();
+		// homeinv = new Image();
+		// my_home.src = "home.jpg";
+		// homeinv.src = "home_i.jpg";
+
+	   	bt1_A = new Image();
+		bt1a_A = new Image();
+		bt1_A.src = "Pics/linkedinpic.png";
+		bt1a_A.src = "Pics/linkedinpic.png";
+		
+		bt2_B = new Image();
+		bt2a_B = new Image();
+		bt2_B.src = "Pics/resumepic.png";
+		bt2a_B.src = "Pics/resumepic.png";
+		
+		bt3_C = new Image();
+		bt3a_C = new Image();
+		bt3_C.src = "Pics/gmail.png";
+		bt3a_C.src = "Pics/gmail.png";
+		
+		
+	}
+</script> -->
+<script>
+var backgrounds = ["1.jpg", 
+"2.jpg",
+"3.jpg"];
+
+var index = Math.floor(Math.random() * 3);
+
+var back = 'url(/Pics/' + 2 + '.jpg)';
+
+//document.getElementById('background').style.backgroundImage= back; 
+
+</script>
+<script src="jquery-3.1.1.min.js"></script>
+<script src="typed.js"></script>
+<script src="rainyday.js"></script>
+<script>
+  $(function(){
+      $(".head").typed({
+        strings: ["^200 Visionary", "^200 Programmer", "^500 IoT Enthusiast", "^500 Aspiring Animator"],
+        typeSpeed: 25,
+        backSpeed: 25,
+        showCursor: true,
+        cursorChar: "<",
+        loop: true,
+        callback: function(){
+	        $(".linkedin").typed({
+		        strings: ["My Linkedin"],
+		        typeSpeed: 50,
+		        backSpeed: 50,
+		        loop: false
+        	});
+	    },
+	    // cursorChar: "<",
+
+      });
+  });
+
+//   $(document).ready(function () {
+//     setTimeout(function(){
+//         $('.img-valign').fadeIn(1000);
+//     }, 3500);
+// });
+
+// $(document).ready(function () {
+//     setTimeout(function(){
+//         $('.text').fadeIn(1000);
+//     }, 3500);
+// });
+
+
+</script>
+
+<script>
+function run() {
+    var image = document.getElementById('background');
+        image.onload = function() {
+            var engine = new RainyDay({
+                image: this
+            });
+            engine.rain([ [1, 2, 8000] ]);
+            engine.rain([ [3, 3, 0.88], [5, 5, 0.9], [6, 2, 1] ], 100);
+        	};
+                // image.crossOrigin = 'anonymous';
+                image.src = 'http://i.imgur.com/N7ETzFO.jpg';
+}     
+</script>
+
+
+
+
+<!--
+<a href="background.html" target="right" id="reload"><img src="home.jpg" width="175" height="100"alt=""/></a>
+-->
+<center>
+
+<div id="heading">
+
+<img src="Pics/namelogo.png" " style="width:356.2px;height:127.6px;">
+<h2> <p> <span class="head"> </span>
+	<!-- <span class="typed-cursor"> < </span> -->
+</p>
+</h2>
+</div>
+
+<!-- <section id="portrait"> -->
+<!-- <img src="Pics/artsyMe.png" " style="width:422.5px;height:492x;"> -->
+<section id= "info">
+
+<table>
+<!-- <a 			href="background.html " target="right"
+            onmouseover="document.H.src=homeinv.src"
+			onmouseout="document.H.src=my_home.src"
+			>
+			<img src="home.jpg" width="150" height="100" name="H" alt="Return" /> 
+		 -->	
+<tbody>
+<tr>
+	<td>
+	<img src="Pics/artsyMe.png" style="width:422.5px;height:492px;">
+	</td>
+
+	<td>
+		
+		<center>
+		<ul class="icons list-unstyled">
+		<li>
+		<a 			href="https://www.linkedin.com/in/ethan-yu-223312117 " target="right"
+	            onmouseover="document.A.src=bt1a_A.src"
+				onmouseout="document.A.src=bt1_A.src"
+				>
+				<img src="Pics/linkedinpic.png" width="150" height="150" class="icon" alt="Linkedin" /> </a></li>
+		</li>
+		
+		<li>
+		<a 			href="https://drive.google.com/file/d/0B9BaMJrLnWM3dEdZZkxpRndiTUE/view?usp=sharing" target="right"
+	            onmouseover="document.B.src=bt2a_B.src"
+				onmouseout="document.B.src=bt2_B.src"					
+				>
+				<img src="Pics/resumepic.png" width="150" height="150" class="icon" alt="Resume" /> </a></li>
+		</li>
+
+		<li>	
+		<a 			href="mailto:chingyuy@usc.edu " target="right"
+	            onmouseover="document.C.src=bt3a_C.src"
+				onmouseout="document.C.src=bt3_C.src"					
+				>
+				<img src="Pics/gmail.png" width="150" height="150" class="icon" alt="Email" /> </a></li>
+		</li>
+		</center>
+		</ul>
+	</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="project" class="main">
+<header>
+<div id="projects">
+<h3> Undergrad at USC majoring in Computer Engineering and Minoring in Animation in the Cinematic Arts</h3>
+<h3> Here are some projects that I've worked on: </h3>
+
+<a 			href="http://www.travelyze.koodaniel.com" target="right"
+	            onmouseover="document.B.src=bt2a_B.src"
+				onmouseout="document.B.src=bt2_B.src"					
+				>
+				<img src="Pics/travelyze.png" width="150" height="150" class="icon" alt="Travelyze" /> </a>
+
+<a 			href="https://github.com/ethan-yu0503" target="right"
+	            onmouseover="document.B.src=bt2a_B.src"
+				onmouseout="document.B.src=bt2_B.src"					
+				>
+				<img src="Pics/github.png" width="150" height="150" class="icon" alt="GitHub" /> </a>
+<a 			href="https://devpost.com/eYu_dev?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="right"
+	            onmouseover="document.B.src=bt2a_B.src"
+				onmouseout="document.B.src=bt2_B.src"					
+				>
+				<img src="Pics/devpost.png" width="150" height="150" class="icon" alt="Devpost" /> </a>
+
+</div>
+</header>
+</section>
+
+</center>
+
+
+
+
+</body>
+</html>
