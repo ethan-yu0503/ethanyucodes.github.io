@@ -4,6 +4,12 @@
 <link rel="stylesheet" rev="stylesheet" href="docs/style.css" />
 <title> Welcome to Ethan's Personal Website </title>
 <meta charset="utf-8">
+<script src="docs/jquery-3.1.1.min.js"></script>
+<script src="docs/typed.js"></script>
+<script src="docs/rainyday.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
 
 </head>
 <body id="back">
@@ -59,24 +65,19 @@ var back = 'url(/Pics/' + 2 + '.jpg)';
         showCursor: true,
         cursorChar: "<",
         loop: true,
-        callback: function(){
-	        $(".linkedin").typed({
-		        strings: ["My Linkedin"],
-		        typeSpeed: 50,
-		        backSpeed: 50,
-		        loop: false
-        	});
-	    },
 	    // cursorChar: "<",
 
       });
   });
 
-//   $(document).ready(function () {
-//     setTimeout(function(){
-//         $('.img-valign').fadeIn(1000);
-//     }, 3500);
-// });
+  $(document).ready(function(){
+    
+        $(".icon").fadeIn(10000);
+        // $("#heading").fadeIn();
+        // $("#me").fadeIn();
+    
+	});
+
 
 // $(document).ready(function () {
 //     setTimeout(function(){
@@ -89,14 +90,21 @@ var back = 'url(/Pics/' + 2 + '.jpg)';
 
 <script>
 
-    var image = document.getElementById('back');
-        image.onload = function() {
-            var engine = new RainyDay({
-                image: this
-            });
-            engine.rain([ [1, 2, 8000] ]);
-            engine.rain([ [3, 3, 0.88], [5, 5, 0.9], [6, 2, 1] ], 100);
-        	};
+	$(document).ready(function(){
+    
+        $("#me").fadeIn();
+        // $("#heading").fadeIn();
+        // $("#me").fadeIn();
+    
+	});
+    // var image = document.getElementById('back');
+    //     image.onload = function() {
+    //         var engine = new RainyDay({
+    //             image: this
+    //         });
+    //         engine.rain([ [1, 2, 8000] ]);
+    //         engine.rain([ [3, 3, 0.88], [5, 5, 0.9], [6, 2, 1] ], 100);
+    //     	};
                 // image.crossOrigin = 'anonymous';
                 //image.src = 'http://i.imgur.com/N7ETzFO.jpg';
 }    
@@ -133,7 +141,9 @@ var back = 'url(/Pics/' + 2 + '.jpg)';
 <tbody>
 <tr>
 	<td>
-	<img src="docs/Pics/artsyMe.png" style="width:422.5px;height:492px;">
+	<div id="me">
+	<img src="docs/Pics/artsyMe.png" style="width:507px;height:590px;">
+	</div>
 	</td>
 
 	<td>
@@ -141,28 +151,34 @@ var back = 'url(/Pics/' + 2 + '.jpg)';
 		<center>
 		<ul class="icons list-unstyled">
 		<li>
-		<a 			href="https://www.linkedin.com/in/ethan-yu-223312117 " target="right"
-	            onmouseover="document.A.src=bt1a_A.src"
-				onmouseout="document.A.src=bt1_A.src"
+		<div id="ln">
+		<a 			href="https://www.linkedin.com/in/ethan-yu-223312117 " id="Linkedin"
 				>
-				<img src="docs/Pics/linkedinpic.png" width="150" height="150" class="icon" alt="Linkedin" /> </a></li>
-		</li>
+				<img src="docs/Pics/linkedinpic.png" width="150" height="150" class="icon" id="Linkedin" /> 
+		</a></div></li>
+
 		
-		<li>
+		<li id="res">
 		<a 			href="https://drive.google.com/file/d/0B9BaMJrLnWM3dEdZZkxpRndiTUE/view?usp=sharing" target="right"
 	            onmouseover="document.B.src=bt2a_B.src"
 				onmouseout="document.B.src=bt2_B.src"					
 				>
-				<img src="docs/Pics/resumepic.png" width="150" height="150" class="icon" alt="Resume" /> </a></li>
+				<img src="docs/Pics/resumepic.png" width="150" height="150" class="icon" id="Resume" /> </a></li>
 		</li>
-
-		<li>	
+		<li id="github">	
+				<a 	href="https://github.com/ethan-yu0503" target="right"					
+						>
+						<img src="docs/Pics/github.png" width="150" height="150" class="icon" id="Github" /> </a></li>
+		</li>
+		<li id="mail">	
 		<a 			href="mailto:chingyuy@usc.edu " target="right"
 	            onmouseover="document.C.src=bt3a_C.src"
 				onmouseout="document.C.src=bt3_C.src"					
 				>
-				<img src="docs/Pics/gmail.png" width="150" height="150" class="icon" alt="Email" /> </a></li>
+				<img src="docs/Pics/gmail.png" width="150" height="150" class="icon" id="Email" /> </a></li>
 		</li>
+
+		
 		</center>
 		</ul>
 	</td>
