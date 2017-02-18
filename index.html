@@ -4,44 +4,15 @@
 <link rel="stylesheet" rev="stylesheet" href="docs/style.css" />
 <title> Welcome to Ethan's Personal Website </title>
 <meta charset="utf-8">
-<script src="docs/jquery-3.1.1.min.js"></script>
-<script src="docs/typed.js"></script>
 <script src="docs/rainyday.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
 
 
 </head>
 <body id="back">
 
 
-<!-- <script type="text/javascript" >
-	if (document.images)
-	{
-		// my_home = new Image();
-		// homeinv = new Image();
-		// my_home.src = "home.jpg";
-		// homeinv.src = "home_i.jpg";
-
-	   	bt1_A = new Image();
-		bt1a_A = new Image();
-		bt1_A.src = "Pics/linkedinpic.png";
-		bt1a_A.src = "Pics/linkedinpic.png";
-		
-		bt2_B = new Image();
-		bt2a_B = new Image();
-		bt2_B.src = "Pics/resumepic.png";
-		bt2a_B.src = "Pics/resumepic.png";
-		
-		bt3_C = new Image();
-		bt3a_C = new Image();
-		bt3_C.src = "Pics/gmail.png";
-		bt3a_C.src = "Pics/gmail.png";
-		
-		
-	}
-</script> -->
-<script>
+<!-- <script>
 var backgrounds = ["1.jpg", 
 "2.jpg",
 "3.jpg"];
@@ -52,10 +23,10 @@ var back = 'url(/Pics/' + 2 + '.jpg)';
 
 //document.getElementById('background').style.backgroundImage= back; 
 
-</script>
+</script> -->
 <script src="docs/jquery-3.1.1.min.js"></script>
 <script src="docs/typed.js"></script>
-<script src="docs/rainyday.js"></script>
+
 <script>
   $(function(){
       $(".head").typed({
@@ -72,7 +43,7 @@ var back = 'url(/Pics/' + 2 + '.jpg)';
 
   $(document).ready(function(){
     
-        $(".icon").fadeIn(10000);
+        $(".portrait").fadeIn("slow");
         // $("#heading").fadeIn();
         // $("#me").fadeIn();
     
@@ -97,17 +68,7 @@ var back = 'url(/Pics/' + 2 + '.jpg)';
         // $("#me").fadeIn();
     
 	});
-    // var image = document.getElementById('back');
-    //     image.onload = function() {
-    //         var engine = new RainyDay({
-    //             image: this
-    //         });
-    //         engine.rain([ [1, 2, 8000] ]);
-    //         engine.rain([ [3, 3, 0.88], [5, 5, 0.9], [6, 2, 1] ], 100);
-    //     	};
-                // image.crossOrigin = 'anonymous';
-                //image.src = 'http://i.imgur.com/N7ETzFO.jpg';
-}    
+  
 </script>
 
 
@@ -118,20 +79,28 @@ var back = 'url(/Pics/' + 2 + '.jpg)';
 -->
 <center>
 
-<div id="heading">
-
-<img src="docs/Pics/namelogo.png" " style="width:356.2px;height:127.6px;">
-<h2> <p> <span class="head"> </span>
-	<!-- <span class="typed-cursor"> < </span> -->
-</p>
-</h2>
-</div>
+<!-- <div id="heading"> -->
+<table>
+	<tr>
+	<img class="portrait" src="docs/Pics/namelogo.png" " style="width:326.2px;height:117.6px;">
+	</tr>
+	<tr>
+	Blah blah
+	</tr>
+	<tr>
+	<h2>  <span class="head"> </span>
+		<!-- <span class="typed-cursor"> < </span> -->
+	
+	</h2>
+	</tr>
+</table>
+<!-- </div> -->
 
 <!-- <section id="portrait"> -->
 <!-- <img src="Pics/artsyMe.png" " style="width:422.5px;height:492x;"> -->
 <section id= "info">
 
-<table>
+<table >
 <!-- <a 			href="background.html " target="right"
             onmouseover="document.H.src=homeinv.src"
 			onmouseout="document.H.src=my_home.src"
@@ -142,11 +111,11 @@ var back = 'url(/Pics/' + 2 + '.jpg)';
 <tr>
 	<td>
 	<div id="portrait">
-	<h4> Click on me for more information! </h4>
+<!-- 	<h4> Click on me for more information! </h4> -->
 	<a 	href="about.html " id="Me">
 				
 			
-	<img src="docs/Pics/artsyMe.png" style="width:507px;height:590px;"
+	<img src="docs/Pics/artsyMe.png" style="width:378px;height:442.5px;"
 	>
 	</a>
 	</div>
@@ -160,7 +129,7 @@ var back = 'url(/Pics/' + 2 + '.jpg)';
 		<div id="ln">
 		<a 			href="https://www.linkedin.com/in/ethan-yu-223312117 " id="Linkedin"
 				>
-				<img src="docs/Pics/linkedinpic.png" width="150" height="150" class="icon" id="Linkedin" /> 
+				<img src="docs/Pics/linkedinpic.png" width="100" height="100" class="icon" id="Linkedin" /> 
 		</a></div></li>
 
 		
@@ -169,19 +138,19 @@ var back = 'url(/Pics/' + 2 + '.jpg)';
 	            onmouseover="document.B.src=bt2a_B.src"
 				onmouseout="document.B.src=bt2_B.src"					
 				>
-				<img src="docs/Pics/resumepic.png" width="150" height="150" class="icon" id="Resume" /> </a></li>
+				<img src="docs/Pics/resumepic.png" width="100" height="100" class="icon" id="Resume" /> </a></li>
 		</li>
 		<li id="github">	
 				<a 	href="https://github.com/ethan-yu0503" target="right"					
 						>
-						<img src="docs/Pics/github.png" width="150" height="150" class="icon" id="Github" /> </a></li>
+						<img src="docs/Pics/github.png" width="100" height="100" class="icon" id="Github" /> </a></li>
 		</li>
 		<li id="mail">	
 		<a 			href="mailto:chingyuy@usc.edu " target="right"
 	            onmouseover="document.C.src=bt3a_C.src"
 				onmouseout="document.C.src=bt3_C.src"					
 				>
-				<img src="docs/Pics/gmail.png" width="150" height="150" class="icon" id="Email" /> </a></li>
+				<img src="docs/Pics/gmail.png" width="100" height="100" class="icon" id="Email" /> </a></li>
 		</li>
 
 		

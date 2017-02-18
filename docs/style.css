@@ -32,10 +32,8 @@ table {
 }
 
 th, td {
-	padding: 10px;
-	border: 2px #666 solid;
-	text-align: center;
-	font-size: 24px;
+	padding: 0px;
+
 }
 
 
@@ -74,19 +72,19 @@ th, td {
 }*/
 
 .icons .icon {
-  -webkit-transition: all 1.5s ease-in-out;
-  -moz-transition: all 1.5s ease-in-out;
-  -ms-transition: all 1.5s ease-in-out;
-  -o-transition: all 1.5s ease-in-out;
-  transition: all 1.5s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .icons .icon:hover, .icons .icon:active { 
-  -webkit-transform: scale(1.1) rotateY(360deg);
-  -moz-transform: scale(1.1) rotateY(360deg);
-  -ms-transform: scale(1.1) rotateY(360deg);
-  -o-transform: scale(1.1) rotateY(360deg);
-  transform: scale(1.1) rotateY(360deg);
+  -webkit-transform: scale(1.1) rotate(360deg);
+  -moz-transform: scale(1.1) rotate(360deg);
+  -ms-transform: scale(1.1) rotate(360deg);
+  -o-transform: scale(1.1) rotate(360deg);
+  transform: scale(1.1) rotate(360deg);
 }
 
 
@@ -144,7 +142,7 @@ h3 {
 
 #aboutMe{
 
-  background-image: url("Pics/aboutMe.jpeg");
+  background-image: url("img/ethan_hp17.jpeg");
 
 }
 
