@@ -6,6 +6,8 @@
 <meta charset="utf-8">
 <script src="docs/rainyday.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="docs/jquery-3.1.1.min.js"></script>
+<script src="docs/typed.js"></script>
 
 
 </head>
@@ -28,31 +30,26 @@ console.log(back);
 
 //document.getElementById('background').style.backgroundImage= back; 
 
-</script>
-<script src="docs/jquery-3.1.1.min.js"></script>
-<script src="docs/typed.js"></script>
 
-<script>
-  $(function(){
-      $(".head").typed({
-        strings: ["^200 Engineer", "^500 Deep Learning Enthusiast", "^500 Aspiring Animator", "^300 Amateur Beatboxer", "^200 Dreamer"],
-        typeSpeed: 25,
-        backSpeed: 25,
-        showCursor: true,
-        cursorChar: "<",
-        loop: true,
-	    // cursorChar: "<",
-
-      });
-  });
-
-  $(document).ready(function(){
-    
-        $(".portrait").fadeIn("slow");
-        // $("#heading").fadeIn();
-        // $("#me").fadeIn();
-    
+	$(document).ready(function(){
+	    $("body").click(function(){
+	        $("#mew-image").fadeIn();
+	        
+	    });
 	});
+	 $(function(){
+	      $(".head").typed({
+	        strings: ["^200 Engineer", "^500 Deep Learning Enthusiast", "^500 Aspiring Animator", "^300 Amateur Beatboxer", "^200 Dreamer"],
+	        typeSpeed: 25,
+	        backSpeed: 25,
+	        showCursor: true,
+	        cursorChar: "<",
+	        loop: true,
+		    // cursorChar: "<",
+
+	      });
+	 });
+
 
 
 // $(document).ready(function () {
@@ -84,14 +81,14 @@ console.log(back);
 -->
 <center>
 <div style="height:50px;"></div>
-<!-- <div id="heading"> -->
+
 <table style="margin:30px 30px;">
 	<tr>
-	<img class="portrait" src="docs/Pics/namelogo.png" " style="width:326.2px;height:117.6px;">
+		<img class="portrait" src="docs/Pics/namelogo.png" " style="width:326.2px;height:117.6px;">
 	</tr>
 	<tr>
 	<h2>  <span class="head"> </span>
-		<!-- <span class="typed-cursor"> < </span> -->
+
 	
 	</h2>
 	</tr>
@@ -101,7 +98,7 @@ console.log(back);
 <section id= "info">
 
 <div class='description-body'>
-	<div class='portrait'>
+	<div id='mew-image'>
 		<img src="docs/Pics/artsyMe.png" style="width:378px;height:442.5px;">
 	</div>
 	<div class='contact icons list-unstyled'>
@@ -121,7 +118,8 @@ console.log(back);
 		<div>
 			<a href="mailto:chingyuy@usc.edu " target="right"
 	            onmouseover="document.C.src=bt3a_C.src"
-				onmouseout="document.C.src=bt3_C.src">
+				onmouseout="document.C.src=bt3_C.src"					
+				>
 				<img src="docs/Pics/gmail.png" width="100" height="100" class="icon" id="Email" /> </a>
 		</div>
 

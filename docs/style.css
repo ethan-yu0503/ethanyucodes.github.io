@@ -247,14 +247,14 @@ h4{
   /*font-weight: bold;*/
 
 }
-.mew{
+.description-body{
   display:flex;
   justify-content:center;
 }
 .mew-image{
 
 }
-.mew-contact{
+.contact{
   display:flex;
   flex-direction:column;
   align-items:center;
