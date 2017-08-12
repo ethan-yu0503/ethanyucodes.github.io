@@ -7,6 +7,7 @@
 <script src="docs/rainyday.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="docs/jquery-3.1.1.min.js"></script>
+<script src="docs/motio.min.js"></script>
 <script src="docs/typed.js"></script>
 
 
@@ -23,42 +24,32 @@ var backgrounds = ["1.jpg",
 
 var index = Math.floor(Math.random() * 3);
 
-console.log(index);
+$(document).ready(function(){
+    $("body").click(function(){
+        $("#mew-image").fadeIn();
 
-var back = 'url(/Pics/' + 2 + '.jpg)';
+    });
+});
+ $(function(){
+      $(".heading").typed({
+        strings: ["^200 Engineer", "^500 Deep Learning Enthusiast", "^500 Aspiring Animator", "^300 Amateur Beatboxer", "^200 Dreamer"],
+        typeSpeed: 25,
+        backSpeed: 25,
+        showCursor: true,
+        cursorChar: "<",
+        loop: true,
+        // cursorChar: "<",
 
-console.log(back);
+      });
+ });
 
-//document.getElementById('background').style.backgroundImage= back; 
+var element = document.querySelector('#back');
+var panning = new Motio(element, {
+    fps: 45, // Frames per second. More fps = higher CPU load.
+    speedX: -45 // Negative horizontal speed = panning to left.
+});
 
-
-	$(document).ready(function(){
-	    $("body").click(function(){
-	        $("#mew-image").fadeIn();
-	        
-	    });
-	});
-	 $(function(){
-	      $(".heading").typed({
-	        strings: ["^200 Engineer", "^500 Deep Learning Enthusiast", "^500 Aspiring Animator", "^300 Amateur Beatboxer", "^200 Dreamer"],
-	        typeSpeed: 25,
-	        backSpeed: 25,
-	        showCursor: true,
-	        cursorChar: "<",
-	        loop: true,
-		    // cursorChar: "<",
-
-	      });
-	 });
-
-
-
-// $(document).ready(function () {
-//     setTimeout(function(){
-//         $('.text').fadeIn(1000);
-//     }, 3500);
-// });
-
+panning.play(); // start animation
 
 </script>
 
@@ -77,18 +68,16 @@ console.log(back);
 
 
 
-<!--
-<a href="background.html" target="right" id="reload"><img src="home.jpg" width="175" height="100"alt=""/></a>
--->
+<!--<a href="background.html" target="right" id="reload"><img src="home.jpg" width="175" height="100"alt=""/></a>-->
 <center>
 <div style="height:50px;"></div>
 
 <table style="margin:30px 30px;">
 	<tr>
-		<img class="portrait" src="docs/Pics/namelogo.png" " style="width:326.2px;height:117.6px;">
+        <img class="portrait" src="docs/Pics/namelogo.png" " style="width:326.2px;height:117.6px;"><
 	</tr>
 	<tr>
-	   <h2>  <span class="heading"> </span>
+	   <h2> <span class="heading"> </span>
 
 	</h2>
 	</tr>
@@ -156,7 +145,8 @@ console.log(back);
 
 </center> -->
 
-
+<script>
+                                                                                                    
 
 
 
