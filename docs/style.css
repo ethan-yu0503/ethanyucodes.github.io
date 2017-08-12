@@ -10,7 +10,7 @@
 }
 
 #back {
-  background-image: url("Pics/1.jpg");
+  background-image: url("Pics/circuit.jpg");
 } 
 
 h1, th {
@@ -40,13 +40,18 @@ th, td {
 
 }
 
-
+.green_string{
+    color: lightgreen;
+        
+}
 .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
 
-
+.heading{
+    color: darkturquoise;
+}
 /*#heading {
 
   margin: auto;
