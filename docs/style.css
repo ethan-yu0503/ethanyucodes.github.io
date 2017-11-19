@@ -166,7 +166,6 @@ h3 {
 /*ABOUT ME PAGE*/
 
 #aboutMe{
-
   background-image: url("img/ethan_hp17.jpeg");
 
 }
@@ -253,11 +252,37 @@ h3 {
 
 }
 
+.portfolio_item{
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 3%; 
+}
+
+.portfolio_item p:nth-child(2) {
+  font-style: italic;
+}
+
+.portfolio_item li {
+  padding-bottom: 2%;
+}
+
 #description {
   background-color: white;
   text-align: left;
   height: 300px;
 
+}
+
+#header{
+  font-size: 60px;
+  text-align:center;
+}
+h1{
+  color: #f47142;
+}
+
+h3{
+  color: orange;
 }
 
 h4{
@@ -267,6 +292,11 @@ h4{
   /*font-weight: 500;*/
   /*font-weight: bold;*/
 
+}
+
+iframe[src*=vimeo] {
+    width: 720px;
+    height: 405px;
 }
 .description-body{
   display:flex;
