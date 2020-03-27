@@ -1,18 +1,24 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<!-- ![placeholder](https://ethan-yu0503.github.io/docs/Pics/artsyMe.jpg "Large example image")
+ -->
+Hey there!
+I'm currently pursuing an M.S. in Computer Science (with an interest in Robotics) at the University of Southern California. I received my B.S. in Computer Engineering at USC in December 2019.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm currently interested in AI solutions (especially deep learning) and robotics.
+Last summer, I was working on deep learning inference optimization and runtimes @ [NVIDIA](https://www.nvidia.com/en-us/deep-learning-ai/).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+At school, I am a part of these student organizations:
+- [Makers](http://viterbimakers.usc.edu/): I'm a project manager and an engineer
+- [USC Table Tennis](https://www.facebook.com/uscpingpongposse/): I play on the Varsity team, coach junior
+and experienced players, and manage the club as Vice President
+- [Code the Change](https://www.ctcusc.com/): I was a software developer
 
+In my spare time, I enjoy watching and learning beatboxing. If you are ever interested in
+getting started to learn beatboxing but have no idea how, check out this [link](https://medium.com/@ethanyu/beatboxing-resources-compilation-bbdb0364023a)! 
 
-[jekyll-organization]: https://github.com/jekyll
+You can reach me at: ethanyu DOT code AT gmail
