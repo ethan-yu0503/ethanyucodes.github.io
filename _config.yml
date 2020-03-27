@@ -20,12 +20,15 @@
 
 remote_theme: mmistakes/so-simple-theme
 
-title: Your awesome title
-email: your-email@example.com
+title: Ethan Yu
+email: yu.ethan.cy@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  It me
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: essan_sann
+github_username:  ethan-yu0503
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ethan-yu0503.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 google_fonts:
@@ -34,6 +37,25 @@ google_fonts:
   - name: "Lora"
     weights: "400,400i,700,700i"
 
+skin: "/assets/css/skins/default.css"
+logo: "docs/images/me.JPG"
+
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/essan_sann
+    icon: fab fa-twitter-square
+  - title: GitHub
+    url: https://github.com/ethan-yu0503
+    icon: fab fa-github-square
+  - title: Linkedin
+    url: https://www.linkedin.com/in/ethan-yu-223312117/
+    icon: fab fa-linkedin
+  - title: Spotify
+    url: https://open.spotify.com/user/11187013539
+    icon: fab fa-spotify
+  - title: Medium
+    url: https://medium.com/@ethanyu
+    icon: fab fa-medium
 # Build settings
 plugins:
   - jekyll-feed
