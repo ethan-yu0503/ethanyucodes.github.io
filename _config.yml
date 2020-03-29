@@ -38,7 +38,56 @@ google_fonts:
     weights: "400,400i,700,700i"
 
 skin: "/assets/css/skins/default.css"
-logo: "docs/images/me.JPG"
+logo: "/images/me.JPG"
+
+author:
+  name: Ethan Yu
+  twitter: essan_sann
+  picture: /images/me.JPG
+  links:
+    - title: Twitter
+      url: https://twitter.com/essan_sann
+      icon: fab fa-twitter-square
+    - title: GitHub
+      url: https://github.com/ethan-yu0503
+      icon: fab fa-github-square
+    - title: Linkedin
+      url: https://www.linkedin.com/in/ethan-yu-223312117/
+      icon: fab fa-linkedin
+    - title: Spotify
+      url: https://open.spotify.com/user/11187013539
+      icon: fab fa-spotify
+    - title: Medium
+      url: https://medium.com/@ethanyu
+      icon: fab fa-medium
+
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      # comments: true
+      # share: true
+  # Project defaults
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: post
+      # comments: true
+      # share: true
 
 footer_links:
   - title: Twitter
