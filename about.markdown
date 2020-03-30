@@ -21,4 +21,6 @@ and experienced players, and manage the club as Vice President
 In my spare time, I enjoy watching and learning beatboxing. If you are ever interested in
 getting started to learn beatboxing but have no idea how, check out this [link](https://medium.com/@ethanyu/beatboxing-resources-compilation-bbdb0364023a)! 
 
+Besides America, I have also lived in Taiwan and China (specifically Shanghai) for a while.
+
 You can reach me at: ethanyu DOT code AT gmail
