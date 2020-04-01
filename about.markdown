@@ -25,4 +25,4 @@ Besides America, I have also lived in Taiwan and China (specifically Shanghai) f
 
 You can reach me at: ethanyu DOT code AT gmail
 
-Check out my old, somewhat cringey personal website [here](https://ethany.me/old-page/hello.html)!
+Check out my old, ridiculous personal website [here](https://ethany.me/old-page/hello.html)!
