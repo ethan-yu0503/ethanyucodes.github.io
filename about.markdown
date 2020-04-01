@@ -24,3 +24,5 @@ getting started to learn beatboxing but have no idea how, check out this [link](
 Besides America, I have also lived in Taiwan and China (specifically Shanghai) for a while.
 
 You can reach me at: ethanyu DOT code AT gmail
+
+Check out my old, somewhat cringey personal website [here](https://ethany.me/old-page/hello.html)!
