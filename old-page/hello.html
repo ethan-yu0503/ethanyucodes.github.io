@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" rev="stylesheet" href="docs/style.css" />
+<title> Welcome to Ethan's Personal Website </title>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<script src="docs/rainyday.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="docs/jquery-3.1.1.min.js"></script>
+<script src="docs/motio.min.js"></script>
+<script src="docs/typed.js"></script>
+
+
+</head>
+<body id="back">
+
+<center>
+
+<table style="margin:30px 30px;">
+	<tr>
+        <img id="name" src="docs/Pics/namelogo.png"  style="width:326.2px;height:117.6px;"> 
+	</tr>
+                                                                                                  
+	<tr>
+        <h2> <span class="heading" style="font-family: 'Raleway', sans-serif; color:#4ef43f;"> </span> </h2>
+	</tr>
+</table>
+
+
+<div class='description-body'>
+	<div id='myPortrait'>
+		<img src="docs/Pics/artsyMe.jpg" style="width:416px;height:486.2px;"> 
+	</div>
+	<div class='contact icons list-unstyled'>
+		<div>
+			<a href="https://www.linkedin.com/in/ethan-yu-223312117 " id="Linkedin"><img src="docs/Pics/linkedinpic.png" width="85" height="85" class="icon" id="Linkedin" /> </a>
+		</div>
+		<div>
+			<a 	href="https://drive.google.com/file/d/0B9BaMJrLnWM3azU1QWZ2WDVlbXc/view?usp=sharing" target="right"
+	            onmouseover="document.B.src=bt2a_B.src"
+				onmouseout="document.B.src=bt2_B.src"					
+				>
+				<img src="docs/Pics/resumepic.png" width="80" height="80" class="icon" id="Resume" /> </a>
+		</div>
+		<div>
+			<a 	href="https://github.com/ethan-yu0503" target="right"><img src="docs/Pics/github.png" width="100" height="100" class="icon" id="Github" /> </a>
+		</div>
+		<div>
+			<a href="mailto:chingyuy@usc.edu " target="right">
+				<img src="docs/Pics/gmail.png" width="80" height="80" class="icon" id="Email" /> </a>
+		</div>
+        <div>
+            <a href="https://devpost.com/eYu_dev " target="right">
+				<img src="docs/Pics/devpost.png" width="80" height="80" class="icon" id="Devpost" /> </a>
+            
+        </div>
+        <div>
+            <a href="animation.html" target="right">
+				<img src="docs/Pics/animation.png" width="85" height="80" class="icon" id="Animation" /> </a>
+            
+        </div>
+
+	</div>
+</div>
+
+<script>
+
+console.log("derp");
+var backgrounds = ["1.jpg", 
+"2.jpg",
+"3.jpg"];
+
+var index = Math.floor(Math.random() * 3);
+
+$(document).ready(function(){
+    $("body").click(function(){
+        $("#mew-image").fadeIn();
+
+    });
+});
+ $(function(){
+      $(".heading").typed({
+        strings: ["^500 Developer", 
+        "^500 Animator", 
+        "^500 Table Tennis Player",
+        "^400 Beatboxer", 
+        "^400 Dreamer"],
+        typeSpeed: 25,
+        backSpeed: 25,
+        showCursor: true,
+        cursorChar: "_",
+        loop: true,
+        // cursorChar: "<",
+
+      });
+ });
+
+var element = document.querySelector('#back');
+var panning = new Motio(element, {
+    fps: 45, // Frames per second. More fps = higher CPU load.
+    speedX: -45 // Negative horizontal speed = panning to left.
+});
+
+panning.play(); // start animation
+
+</script>
+                                                                                               
+
+
+</center>
+                                                                                           
+
+
+
+</body>
+</html>
+
