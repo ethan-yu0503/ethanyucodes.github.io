@@ -19,9 +19,9 @@ and experienced players, and manage the club as Vice President
 - [Code the Change](https://www.ctcusc.com/): I was a software developer
 
 In my spare time, I enjoy watching and learning beatboxing. If you are ever interested in
-getting started to learn beatboxing but have no idea how, check out this [link](https://medium.com/@ethanyu/beatboxing-resources-compilation-bbdb0364023a)!
+getting started on learning beatboxing but have no idea how, check out this [link](https://medium.com/@ethanyu/beatboxing-resources-compilation-bbdb0364023a)!
 
-I've also been to a fair amount of hackathons and deprived myself of sleep. Check out my [Devpost](https://devpost.com/EthanY) for my projects portfolio and awards!
+I've also been to a fair amount of hackathons. I have explored the intersections between web development, augmented reality, motion-detecting hardware, and 3D computer graphics – things get pretty wild when you mix and match these different domains. Check out my [Devpost](https://devpost.com/EthanY) for my projects portfolio and awards!
 
 Besides America, I have also lived in Taiwan and China (specifically Shanghai) for a while.
 
