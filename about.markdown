@@ -9,8 +9,7 @@ permalink: /about/
 Hey there!
 I'm currently pursuing an M.S. in Computer Science (with an interest in Robotics) at the University of Southern California. I received my B.S. in Computer Engineering at USC in December 2019.
 
-I'm currently interested in AI solutions (especially deep learning) and robotics.
-Last summer, I was working on deep learning inference optimization and runtimes @ [NVIDIA](https://www.nvidia.com/en-us/deep-learning-ai/).
+I'm currently interested in AI solutions (especially deep learning) and robotics. This summer, I will be working on robotics solutions @ [NVIDIA](https://www.nvidia.com/en-us/research/robotics/). Last summer, I was working on deep learning inference optimization and runtimes @ [NVIDIA](https://www.nvidia.com/en-us/deep-learning-ai/).
 
 At school, I am a part of these student organizations:
 - [Makers](http://viterbimakers.usc.edu/): I'm a project manager and an engineer
