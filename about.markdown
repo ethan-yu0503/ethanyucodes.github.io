@@ -17,6 +17,8 @@ At school, I am a part of these student organizations:
 and experienced players, and manage the club as Vice President
 - [Code the Change](https://www.ctcusc.com/): I was a software developer
 
+I've also had the opportunity to work with people from USC's [Robotics Embedded Systems Laboratory (RESL)](https://robotics.usc.edu/resl/) and [Interactive and Collaborative Autonomous Robotics (ICAROS)](http://icaros.usc.edu/).
+
 In my spare time, I enjoy watching and learning beatboxing. If you are ever interested in
 getting started on learning beatboxing but have no idea how, check out this [link](https://medium.com/@ethanyu/beatboxing-resources-compilation-bbdb0364023a)!
 
