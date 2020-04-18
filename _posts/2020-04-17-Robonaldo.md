@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Robonaldo"
+title:  "Robonaldo – Soccer Robot"
 date:   2020-04-17 13:58:31 -0700
 categories: robotics software hardware
 ---
