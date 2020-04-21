@@ -10,7 +10,7 @@ For the 2018-2019 school year, I recruited from [USC Makers](http://viterbimaker
 
 Here is a list of things we used in our project:
 * The [MagicMirror NodeJS framework](https://github.com/MichMich/MagicMirror)
-	* It allows us to quickly experiment with modules written by the open-source community and developing our own custom modules
+	* It allows us to quickly experiment with modules written by the open-source community and develop our own custom modules
 * Raspberry Pi
 	* Runs our program and displays it on a screen
 * Old TV
@@ -19,7 +19,7 @@ Here is a list of things we used in our project:
 * Two-way Mirror
 	* A mirror that is reflective and is semi-transparent, allowing the mirror to show the reflections of the user and to enable the user to see the dashboard from the screen
 * Wooden Frame
-	* A frame that we built from the Roski School woodshop and Viterbi Fab Lab
+	* A frame that we built from scrap wood from the Roski School woodshop and Viterbi Fab Lab
 * Ultrasonic Sensor
 	* Sensor that outputs an approximated distance between the device and the good-looking user standing in front of it
 
