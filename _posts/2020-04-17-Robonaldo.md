@@ -6,7 +6,7 @@ categories: robotics software hardware
 ---
 For the 2019-2020 school year, I teamed up with Alex Collelo to recruit from [USC Makers](http://viterbimakers.usc.edu/) and lead a team of ten to create an autonomous robot that plays soccer with a person. Our goal is to create a robot from scratch and develop the software for high-level decision making and low-level control. 
 
-Our hardware stack includes an NVIDIA Jetson TX2 (for decision-making and planning), an Arduino MEGA (for low-level control), a ZED depth-sensing camera, encoders, motor controllers and motors, and our power supplies.
+Our hardware stack includes an NVIDIA Jetson TX2 (for decision-making and planning), an Arduino MEGA (for low-level control), a ZED stereo camera, encoders, motor controllers and motors, and batteries.
 
 Our software stack uses ROS as the backbone, along with Gazebo (simulation), the ZED API (vision processing), and Arduino code. 
 
