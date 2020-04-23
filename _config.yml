@@ -37,7 +37,7 @@ google_fonts:
   - name: "Lora"
     weights: "400,400i,700,700i"
 
-skin: "/assets/css/skins/default.css"
+skin: "/assets/css/skins/dark.css"
 logo: "/images/me.JPG"
 
 author:
