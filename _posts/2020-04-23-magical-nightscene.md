@@ -8,7 +8,7 @@ categories: animation scripting vfx motioncapture generative
 
 In the foreground, I aimed to capture and illustrate a relaxing scene on a grassy hill with fireflies slowly roaming around. For the background, I added elements that made the scene more magical and extraordinary, such as buildings that slowly move up and down, a constellation of a humanoid dancing and skipping around, and fireworks. Every element in the scene is created in Maya.
 
-{% include responsive-embed url="https://vimeo.com/287707369" ratio="16:9" %}
+{% include responsive-embed url="https://player.vimeo.com/video/287707369" width="640" height="360" %}
 
 ## Summary of Techniques 
 ### Foreground –
