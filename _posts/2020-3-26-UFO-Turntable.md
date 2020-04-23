@@ -2,7 +2,7 @@
 layout: post
 title:  "VFX UFO Scene"
 date:   2020-03-26 13:58:31 -0700
-categories: animation
+categories: animation vfx
 ---
 
 Using crazy amounts of extrusion and special duplications, I modeled this UFO to create a contrast in conventional and unconventional designs. I used different Maya Arnold textures to present a metallic look on my model and rendered the final frames in Arnold RenderView. I put together the frames into a video using Adobe AfterEffects (around 120 frames).
