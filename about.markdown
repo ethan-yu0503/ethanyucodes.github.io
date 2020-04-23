@@ -19,6 +19,8 @@ and experienced players, and manage the club as Vice President
 
 I've also had the opportunity to work with people from USC's [Robotics Embedded Systems Laboratory (RESL)](https://robotics.usc.edu/resl/) and [Interactive and Collaborative Autonomous Robotics (ICAROS)](http://icaros.usc.edu/).
 
+Outside of computer science and engineering, I have also dabbled in computer animation, fascinated by the intersection between technology and art. I had the chance to learn about visual effects, crowd generation, motion capture, modeling, and basic rigging and apply it to some of my [projects](https://vimeo.com/user74372618)! 
+
 In my spare time, I enjoy watching and learning beatboxing. If you are ever interested in
 getting started on learning beatboxing but have no idea how, check out this [link](https://medium.com/@ethanyu/beatboxing-resources-compilation-bbdb0364023a)!
 
