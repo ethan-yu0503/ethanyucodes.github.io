@@ -3,4 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Blog
+permalink: /blog
 ---
+
+Keeping track of some random stuff that I've done over the years:

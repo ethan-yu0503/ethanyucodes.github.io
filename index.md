@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About Me
-permalink: /about/
+permalink: /
 ---
 
 <!-- ![placeholder](https://ethan-yu0503.github.io/docs/Pics/artsyMe.jpg "Large example image")
  -->
-Hey there!
+Hey there! I'm Ethan!
 I'm currently pursuing an M.S. in Computer Science (with an interest in Robotics) at the University of Southern California. I received my B.S. in Computer Engineering at USC in December 2019.
 
 I'm currently interested in AI solutions (especially deep learning) and robotics. This summer, I am working on [robotics solutions](https://www.nvidia.com/en-us/research/robotics/) @ NVIDIA, collaborating with the NVIDIA Seattle Robotics Lab. Last summer, I was working on [deep learning inference optimization and runtimes](https://www.nvidia.com/en-us/deep-learning-ai/) @ NVIDIA.
