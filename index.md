@@ -6,27 +6,12 @@ permalink: /
 
 <!-- ![placeholder](https://ethan-yu0503.github.io/docs/Pics/artsyMe.jpg "Large example image")
  -->
-Hey there! I'm Ethan!
-I'm currently pursuing an M.S. in Computer Science (with an interest in Robotics) at the University of Southern California. I received my B.S. in Computer Engineering at USC in December 2019.
-
-I'm currently interested in AI solutions (especially deep learning) and robotics. This summer, I am working on [robotics solutions](https://www.nvidia.com/en-us/research/robotics/) @ NVIDIA, collaborating with the NVIDIA Seattle Robotics Lab. Last summer, I was working on [deep learning inference optimization and runtimes](https://www.nvidia.com/en-us/deep-learning-ai/) @ NVIDIA.
-
-At school, I am a part of these student organizations:
-- [Makers](http://viterbimakers.usc.edu/): I'm a project manager and a lead engineer for various hardware projects
-- [USC Table Tennis](https://www.facebook.com/uscpingpongposse/): I play on the Varsity team, coach junior
-and experienced players, and manage the club as Vice President
-- [Code the Change](https://www.ctcusc.com/): I was a software developer
-
-I've also had the opportunity to work with people from USC's [Robotics Embedded Systems Laboratory (RESL)](https://robotics.usc.edu/resl/) and [Interactive and Collaborative Autonomous Robotics (ICAROS)](http://icaros.usc.edu/).
-
-Outside of computer science and engineering, I have also dabbled in computer animation, fascinated by the intersection between technology and art. I had the chance to learn about visual effects, crowd generation, motion capture, modeling, and basic rigging and apply it to some of my [projects](https://vimeo.com/user74372618)! 
+Hi! My name is Ethan Yu, and I grew up in Taiwan and Shanghai, where I went to a school that was founded and, sadly, named after a semiconductor foundry. I studied computer engineering, computer science, and [3D animation](https://vimeo.com/user74372618) at the [University of Southern California](https://usc.edu), where I also took part in leading hardware projects at [Makers](http://viterbimakers.usc.edu/), playing as a varsity member and the Vice President of the [USC Table Tennis Team](https://www.facebook.com/uscpingpongposse/), and developing software for non-profits and local communities at [Code the Change](https://www.ctcusc.com/). I also got a chance to work on [deep learning inference](https://www.nvidia.com/en-us/deep-learning-ai/) and [robotics](https://www.nvidia.com/en-us/research/robotics/) solutions at NVIDIA.
 
 In my spare time, I enjoy watching and learning beatboxing. If you are ever interested in
 getting started on learning beatboxing but have no idea how, check out this [link](https://medium.com/@ethanyu/beatboxing-resources-compilation-bbdb0364023a)!
 
 I've also been to a fair amount of hackathons. I have explored the intersections between web development, augmented reality, motion-detecting hardware, and 3D computer graphics – things get pretty wild when you mix and match these different domains. Check out my [Devpost](https://devpost.com/EthanY) for my projects portfolio and awards!
-
-Besides America, I have also lived in Taiwan and China (specifically Shanghai) for a while.
 
 You can reach me at: ethanyu DOT code AT gmail
 
