@@ -27,5 +27,5 @@ In the foreground, I aimed to capture and illustrate a relaxing scene on a grass
 **Compositing**  Adobe AfterEffects
 
 ### Motion Capture
-I had an opportunity to wear a motion capture bodysuit in the motion capture studio in the (USC Robert Zemeckis Center)[https://cinema.usc.edu/facilities/stages.cfm]. I acted out a bunch of different movements so that my classmates and I can use the motion capture data for their projects. T-Posing for each movement segment actually turned out to be more tiring than I thought – or I was just unfit.
+I had an opportunity to wear a motion capture bodysuit in the motion capture studio in the [USC Robert Zemeckis Center](https://cinema.usc.edu/facilities/stages.cfm). I acted out a bunch of different movements so that my classmates and I can use the motion capture data for their projects. T-Posing for each movement segment actually turned out to be more tiring than I thought – or I was just unfit.
 ![Motion Capture]({{ 'images/motion_capture_pic.jpg'|absolute_url}}) 
